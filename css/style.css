@@ -266,24 +266,29 @@ button {
   font-size: 15.5px;
 }
 
-/* SERVICES */
+/* TRATAMENTO */
 
-#services h4{
+
+/* END-TRATAMENTO */
+
+/* SINTOMAS */
+
+#sintomas h4{
   text-align: center;
   padding-bottom: 3rem;
   color: #335eea;
   font-size: 1.25em;
 }
-#services .card circle {
+#sintomas .card circle {
   fill:  #335eea3f;
 }
-#services header h2 {
+#sintomas header h2{
   margin-bottom: 6rem;
   font-size: 2em;
   text-align: center !important;
 }
 
-#services .cards {
+#sintomas .cards {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,7 +298,7 @@ button {
   max-width: 1000px;
 }
 
-#services .card {
+#sintomas .card {
   padding: 2.4rem;
   text-align: left;
   background: white;
@@ -302,29 +307,29 @@ button {
   border-radius: 0.6rem;
 }
 
-#services .card h3 {
+#sintomas .card h3 {
   margin-block: 1.6rem;
 }
 
-@media (min-width: 1024px) {
-  #services h2 {
+@media (min-width: 992px) {
+  #sintomas h2 {
     width: 47rem;
     margin-inline: auto;
   }
 
-  #services .cards {
+  #sintomas .cards {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 4rem;
   }
 
-  #services .card {
+  #sintomas .card {
     width: 30%;
     flex-grow: 1;
   }
 
 }
-/* END-SERVICES*/
+/* END-SINTOMAS*/
 
 /* DIAGNÓSTICO */
 
@@ -342,10 +347,6 @@ button {
   object-fit: contain;
   margin: 0;
   border-radius: 25px;
-}
-
-@media (max-width: 1024px){
-
 }
  
 /* DIAGNÓSTICO */
@@ -461,6 +462,12 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
+
+  .header{
+    position: fixed !important;
+    z-index: 1000;
+  }
+
   .logo h2 {
     font-size: var(--h2-font-size);
   }
