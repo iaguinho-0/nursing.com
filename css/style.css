@@ -273,6 +273,10 @@ button {
 
 /* SINTOMAS */
 
+#sintomas{
+  padding-top: 2rem;
+}
+
 #sintomas h4{
   text-align: center;
   padding-bottom: 3rem;
@@ -330,6 +334,20 @@ button {
 
 }
 /* END-SINTOMAS*/
+
+/* TRANSMISSÃO */
+.ul_transmissao{
+  padding: 10px 20px;
+}
+
+.ul_transmissao li{
+  font-size: 14px;
+  line-height: 20px;
+  color: #334157;  
+  list-style-type: disc; 
+}
+
+/* END-TRANSMISSÃO */
 
 /* DIAGNÓSTICO */
 
@@ -539,7 +557,7 @@ footer{
 
 @media screen and (max-width: 991px) { 
 
-  #sobre .grid-cols-2{
+  #sobre .grid-cols-2, #transmissao .grid-cols-2{
     flex-direction: column !important;
   }
   

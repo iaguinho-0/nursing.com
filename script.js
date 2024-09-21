@@ -39,7 +39,7 @@ links.forEach(link => {
             const targetPosition = target.getBoundingClientRect().top + window.scrollY;
             const startPosition = window.scrollY;
             const distance = targetPosition - startPosition;
-            const duration = 1100; // Duração em milissegundos
+            const duration = 1500; // Duração em milissegundos
             let startTime = null;
 
             function animation(currentTime) {
